@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://login-3hn2.onrender.com';
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem('token'));
